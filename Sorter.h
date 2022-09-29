@@ -30,6 +30,9 @@ private:
     int partition(int a[],int low, int high);
 
 
+    // element operator
+    int removeElem(int a[],int len, int x);
+
     void swap(int *a, int *b);
     void printarray(int a[],int len);
 
